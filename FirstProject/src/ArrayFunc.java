@@ -25,12 +25,22 @@ public class ArrayFunc {
             System.out.println(array3[i]);
         }
         
-     // Print all even numbers from 0 to 100
+        // Print all even numbers from 0 to 100
         System.out.println("Even numbers from 0 to 100:");
         for (int i = 0; i <= 100; i ++) {
         	if (i%2==0) {
             System.out.println(i);
         	}
         }
+        
+     // Print largest number from array
+        System.out.println("Largest number from array3");
+        int largest = array3[0];
+        for (int i = 1; i < array3.length; i++) {
+            if (array3[i] > largest) {
+                largest = array3[i];
+            }
+        }
+        System.out.println(largest);
     }
 }
