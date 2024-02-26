@@ -22,6 +22,8 @@ public class ExceptionHandling {
 		}
 		catch(Exception e) {
 		System.out.println("Exception occured");
+	}finally {
+		System.out.println("Finally block");
 	}
 		
 		System.out.println(arrayA[1]);
